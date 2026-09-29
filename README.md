@@ -56,7 +56,14 @@ The interactive report supports this investigation through four pages:
 Filters let users move from the overall picture to the services relevant to their decisions.
 
 ## 4. Key Insights
-![Airline Service Reliability executive overview](assets/executive-overview.png)
+
+### Overall report: where should the investigation start?
+
+Across 7.65 million flights, arrival on-time performance was **77.11%**. The monthly trends point to two different questions: why July 2025 had weak arrival performance, and why January 2026 had many cancellations.
+
+![Executive overview of airline reliability](assets/executive-overview.png)
+
+*Report: Executive Overview, all airlines, June 2025–June 2026.*
 
 ### July’s weakest arrival performance pointed to late-aircraft disruption
 
@@ -64,11 +71,29 @@ Filters let users move from the overall picture to the services relevant to thei
 
 Denver (DEN) recorded the most late-aircraft delay minutes among origin airports in July: **417,588 minutes**. This is a month-specific finding; Chicago O’Hare led the corresponding total across the full study period.
 
+![July 2025 delay drivers showing Denver leading origin airports in late-aircraft minutes and late aircraft as the largest reported delay cause](assets/delay-drivers-july-2025.png)
+
+*July 2025, all airlines — late aircraft contributed 5.88 million reported minutes. DEN led the origin-airport ranking with approximately 0.42 million minutes. Airport bars show total minutes, not a delay rate.*
+
 **Business implication:** Start the review with incoming-aircraft delays and recovery between flights at the affected services. The recorded cause points to disruption carried forward from an earlier flight; it does not establish what originally delayed that aircraft.
 
 ### A route comparison exposed a substantial evening reliability gap
 
 Southwest was selected for a closer review because it combined substantial Denver flight volume with the lowest arrival performance among the five airlines contributing the most late-aircraft minutes there in July.
+
+![Denver departures in July 2025 showing departure-period arrival performance, airline comparisons, and route results](assets/den-routes-july-2025.png)
+
+*July 2025, origin DEN, all airlines and destinations — 29,433 scheduled flights and 62.97% arrival OTP. The lower chart shows arrival OTP percentages for the five airlines selected by highest late-aircraft delay minutes.*
+
+### Southwest’s Denver flights narrowed the investigation
+
+In July, Southwest operated **8,693 flights from Denver**, with **57.27%** arriving on time. It recorded **145,068 late-aircraft delay minutes** there, so its Denver routes were a useful next step for a focused review.
+
+![Southwest selected for Denver flights in July 2025](assets/southwest-den-selection-july-2025.png)
+
+*Report: Routes & Departure Times, July 2025, Denver origin, Southwest selection, all destinations.*
+
+### Denver–Salt Lake City: evening flights had the weakest results
 
 For **Southwest’s DEN–SLC service in July 2025**:
 
@@ -77,6 +102,10 @@ For **Southwest’s DEN–SLC service in July 2025**:
 | Morning | 77 | 85.71% |
 | Evening | 83 | 23.46% |
 
+![Southwest Denver to Salt Lake City route performance in July 2025](assets/southwest-den-slc-july-2025.png)
+
+*July 2025, DEN–SLC, Southwest selected in the airline chart — 222 scheduled flights across all departure periods, 50.23% overall arrival OTP, and 4,366 late-aircraft delay minutes. The chart rounds morning and evening OTP to 86% and 23%; the table above retains the validated two-decimal values. The 222 flights include afternoon services as well as morning and evening.*
+
 Evening performance was **62.25 percentage points lower**. Of the 83 scheduled evening flights, **61 recorded late-aircraft delay**. Morning services also had higher arrival on-time performance in every one of the 13 months examined for this airline and route.
 
 **Business implication:** Prioritize evening aircraft rotations, turnaround allowances, and recovery options for review. The comparison identifies a recurring pattern, but does not prove that departure time itself caused the delays.
@@ -84,6 +113,10 @@ Evening performance was **62.25 percentage points lower**. Of the 83 scheduled e
 ### January’s cancellation peak required a different response
 
 **January 2026 had the highest cancellation rate: 4.71%.** There were **25,635 cancellations**, of which **22,463—87.63%—were reported as weather-related**.
+
+![January 2026 cancellation analysis showing cause counts, departure-period counts, and origin-airport cancellation rates](assets/cancellations-january-2026.png)
+
+*January 2026, all airlines and origin airports — weather accounts for 22,463 of 25,635 cancellations. The airport chart ranks cancellation rates; scheduled-flight volumes must be checked before setting airport priorities.*
 
 The departure-period analysis showed the largest cancellation count in the morning. This describes the number of cancelled flights, not the probability of cancellation for a scheduled morning flight.
 
