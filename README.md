@@ -56,6 +56,7 @@ The interactive report supports this investigation through four pages:
 Filters let users move from the overall picture to the services relevant to their decisions.
 
 ## 4. Key Insights
+![Airline Service Reliability executive overview](assets/executive-overview.png)
 
 ### July’s weakest arrival performance pointed to late-aircraft disruption
 
